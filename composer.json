@@ -1,0 +1,21 @@
+{
+    "name": "alejka/yii2-fancybox2",
+    "type": "yii2-extension",
+    "description": "FancyBox2 Widget for Yii framework",
+    "keywords": ["yii2", "extension", "widget", "fancybox2"],
+    "license": "CC BY-NC 3.0",
+    "authors": [
+        {
+            "name": "Aleksey Samokhvalov",
+            "email": "samohvalov.aleksey@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "alejka\\fancybox2\\": ""
+        }
+    }
+}
