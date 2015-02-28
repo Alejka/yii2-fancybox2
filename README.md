@@ -1,7 +1,7 @@
 Fancybox2 Widget for Yii2
 =======================
 
-[Yii2](http://www.yiiframework.com) extension for [sms.ru](http://www.fancyapps.com/fancybox/)
+[Yii2](http://www.yiiframework.com) extension for [fancyapps.com/fancybox](http://www.fancyapps.com/fancybox/)
 
 Installation
 ------------
@@ -24,6 +24,7 @@ to the require section of your application's `composer.json` file.
 Usage
 -----
 
+```
 use alejka\fancybox2\FancyBox;
 
 FancyBox::widget([
@@ -51,3 +52,4 @@ FancyBox::widget([
         }",
     ],
 ]);
+```
