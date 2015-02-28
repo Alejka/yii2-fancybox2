@@ -9,7 +9,7 @@ use yii\web\JsExpression;
 /**
  * FancyBox Widget
  *
- * @version 0.0.1
+ * @version 0.0.2
  * @author Aleksey Samokhvalov <samohvalov.aleksey@gmail.com>
  * @link http://alejka.ru
  * @package alejka\fancybox2
@@ -48,7 +48,6 @@ class FancyBox extends Widget
                 $this->options[$callbackName] = new JsExpression($this->options[$callbackName]);
             }
         }
-        unset($val);
     }
     
     /**
