@@ -35,7 +35,6 @@ FancyBox::widget([
         'margin' => [15, 15, 60, 15],
         'afterLoad' => new JsExpression("
             function() {
-                console.log(1);
                 var list = $('#links');
                 if (!list.length) {    
                     list = $('<ul id=\"links\">');
